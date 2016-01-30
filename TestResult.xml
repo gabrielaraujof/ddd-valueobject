@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="data-0x2c2f930" fullname="/home/gabriel/Work/data-0x2c2f930" testcasecount="6" result="Passed" start-time="2016-01-30 02:38:25Z" end-time="2016-01-30 02:38:25Z" duration="0.016473" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="6" random-seed="121154320">
+  <command-line><![CDATA[/home/gabriel/.dnx/runtimes/dnx-mono.1.0.0-rc2-16357/bin/Microsoft.Dnx.Host.Mono.dll run]]></command-line>
+  <filter />
+  <test-suite type="Assembly" id="1009" name="data-0x2c2f930" fullname="/home/gabriel/Work/data-0x2c2f930" runstate="Runnable" testcasecount="6" result="Passed" start-time="2016-01-30 02:38:25Z" end-time="2016-01-30 02:38:25Z" duration="0.016473" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="6">
+    <environment framework-version="3.0.5783.22228" clr-version="4.0.30319.17020" os-version="Unix 3.19.0.32" platform="Unix" cwd="/home/gabriel/Work/DotnetCoreNUnit" machine-name="winterfell" user="gabriel" user-domain="winterfell" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="/home/gabriel/Work/DotnetCoreNUnit" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="7059" />
+      <property name="_APPDOMAIN" value="Microsoft.Dnx.Host.Mono.dll" />
+    </properties>
+    <test-suite type="TestSuite" id="1010" name="DotnetCoreNUnit" fullname="DotnetCoreNUnit" runstate="Runnable" testcasecount="6" result="Passed" start-time="2016-01-30 02:38:25Z" end-time="2016-01-30 02:38:25Z" duration="0.013142" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="6">
+      <test-suite type="TestFixture" id="1000" name="MoneyTests" fullname="DotnetCoreNUnit.MoneyTests" classname="DotnetCoreNUnit.MoneyTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2016-01-30 02:38:25Z" end-time="2016-01-30 02:38:25Z" duration="0.012437" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="6">
+        <test-suite type="ParameterizedMethod" id="1004" name="AddingSomeMoney" fullname="DotnetCoreNUnit.MoneyTests.AddingSomeMoney" runstate="Runnable" testcasecount="3" result="Passed" start-time="2016-01-30 02:38:25Z" end-time="2016-01-30 02:38:25Z" duration="0.010423" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="3">
+          <test-case id="1001" name="AddingSomeMoney(2m,3m,5m)" fullname="DotnetCoreNUnit.MoneyTests.AddingSomeMoney(2m,3m,5m)" methodname="AddingSomeMoney" classname="DotnetCoreNUnit.MoneyTests" runstate="Runnable" seed="798259755" result="Passed" start-time="2016-01-30 02:38:25Z" end-time="2016-01-30 02:38:25Z" duration="0.007149" asserts="1" />
+          <test-case id="1002" name="AddingSomeMoney(4m,12m,16m)" fullname="DotnetCoreNUnit.MoneyTests.AddingSomeMoney(4m,12m,16m)" methodname="AddingSomeMoney" classname="DotnetCoreNUnit.MoneyTests" runstate="Runnable" seed="1998102471" result="Passed" start-time="2016-01-30 02:38:25Z" end-time="2016-01-30 02:38:25Z" duration="0.000107" asserts="1" />
+          <test-case id="1003" name="AddingSomeMoney(0m,3790m,3790m)" fullname="DotnetCoreNUnit.MoneyTests.AddingSomeMoney(0m,3790m,3790m)" methodname="AddingSomeMoney" classname="DotnetCoreNUnit.MoneyTests" runstate="Runnable" seed="1396928079" result="Passed" start-time="2016-01-30 02:38:25Z" end-time="2016-01-30 02:38:25Z" duration="0.000060" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1008" name="SubtractingSomeMoney" fullname="DotnetCoreNUnit.MoneyTests.SubtractingSomeMoney" runstate="Runnable" testcasecount="3" result="Passed" start-time="2016-01-30 02:38:25Z" end-time="2016-01-30 02:38:25Z" duration="0.000839" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="3">
+          <test-case id="1005" name="SubtractingSomeMoney(8m,3m,5m)" fullname="DotnetCoreNUnit.MoneyTests.SubtractingSomeMoney(8m,3m,5m)" methodname="SubtractingSomeMoney" classname="DotnetCoreNUnit.MoneyTests" runstate="Runnable" seed="1630670862" result="Passed" start-time="2016-01-30 02:38:25Z" end-time="2016-01-30 02:38:25Z" duration="0.000453" asserts="1" />
+          <test-case id="1006" name="SubtractingSomeMoney(17m,0m,17m)" fullname="DotnetCoreNUnit.MoneyTests.SubtractingSomeMoney(17m,0m,17m)" methodname="SubtractingSomeMoney" classname="DotnetCoreNUnit.MoneyTests" runstate="Runnable" seed="1801850340" result="Passed" start-time="2016-01-30 02:38:25Z" end-time="2016-01-30 02:38:25Z" duration="0.000079" asserts="1" />
+          <test-case id="1007" name="SubtractingSomeMoney(3m,8m,0m)" fullname="DotnetCoreNUnit.MoneyTests.SubtractingSomeMoney(3m,8m,0m)" methodname="SubtractingSomeMoney" classname="DotnetCoreNUnit.MoneyTests" runstate="Runnable" seed="575529885" result="Passed" start-time="2016-01-30 02:38:25Z" end-time="2016-01-30 02:38:25Z" duration="0.000053" asserts="1" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

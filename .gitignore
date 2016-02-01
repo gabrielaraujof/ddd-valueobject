@@ -1,0 +1,7 @@
+# DNX
+project.lock.json
+artifacts/
+
+#NUNIT
+*.VisualState.xml
+TestResult.xml

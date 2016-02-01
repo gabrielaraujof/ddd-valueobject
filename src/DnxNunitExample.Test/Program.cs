@@ -3,7 +3,7 @@ using NUnitLite;
 using System;
 using System.Reflection;
 
-namespace DotnetCoreNUnit
+namespace DnxNunitExample.Test
 {
     public class Program
     {

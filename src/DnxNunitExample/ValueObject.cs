@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DotnetCoreNUnit
+namespace DnxNunitExample
 {
   public abstract class ValueObject<T> where T : ValueObject<T>
   {

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace DotnetCoreNUnit
+namespace DnxNunitExample
 {
   public class Money : ValueObject<Money>
   {
@@ -24,7 +24,7 @@ namespace DotnetCoreNUnit
     {
       if (money.Value > Value)
         return new Money();
-        
+
       return new Money(Value - money.Value);
     }
 

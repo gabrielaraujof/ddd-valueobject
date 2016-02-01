@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace DotnetCoreNUnit
+namespace DnxNunitExample.Test
 {
   [TestFixture]
   public class MoneyTests
